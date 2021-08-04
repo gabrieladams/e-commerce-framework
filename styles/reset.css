@@ -1,0 +1,15 @@
+:root {
+	font-size: 10px;
+}
+
+body {
+	font-size: 1.4rem;
+}
+
+button {
+	@apply focus:outline-none;
+}
+
+input {
+	@apply focus:outline-none;
+}

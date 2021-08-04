@@ -1,0 +1,40 @@
+.form {
+	@apply fixed top-2/4 left-2/4 z-50 px-16 py-12 bg-white transform -translate-x-2/4 -translate-y-2/4;
+
+	width: 45rem;
+
+	/* animation-name: translateToCenter; */
+	/* animation-duration: 1.2s; */
+}
+
+.formTitle {
+	@apply mb-12 text-center capitalize;
+
+	font-size: 18px;
+}
+
+.inputLabel {
+	@apply block mb-4 capitalize;
+}
+
+.input {
+	@apply block p-4 rounded-md w-full text-gray-500;
+
+	background-color: #f2f2f2;
+}
+
+.formButton {
+	@apply p-4 rounded-md w-full text-white;
+
+	background-color: var(--theme-color);
+}
+
+/* @keyframes translateToCenter {
+	from {
+		transform: translate(-50%, -1000px);
+	}
+
+	to {
+		transform: translate(-50%, -50%);
+	}
+} */

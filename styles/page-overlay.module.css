@@ -1,0 +1,16 @@
+.pageOverlay {
+	@apply fixed top-0 left-0 opacity-30 w-full h-full bg-black;
+
+	/* animation-name: fadeIn; */
+	/* animation-duration: 1s; */
+}
+
+/* @keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 0.3;
+	}
+} */

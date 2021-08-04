@@ -1,0 +1,30 @@
+.sidebar {
+	@apply fixed top-0 left-0 h-full;
+
+	width: 30rem;
+	background-color: var(--theme-color);
+}
+
+.logoWrapper {
+	@apply mt-24 ml-16 mb-12;
+}
+
+.logo {
+	@apply text-4xl tracking-widest;
+
+	color: #d5d5d5;
+}
+
+.inputWrapper {
+	@apply ml-16 mb-12;
+}
+
+.input {
+	@apply inline-block px-4 py-2 rounded outline-none bg-white;
+
+	color: #3e3e3e;
+}
+
+.nav {
+	@apply flex flex-col;
+}
